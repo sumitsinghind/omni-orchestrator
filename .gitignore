@@ -1,0 +1,59 @@
+OmniOrchestrator .gitignore
+A comprehensive gitignore for a MERN (MongoDB, Express, React, Node) project.
+-------------------------------------------------------------------
+GENERAL - Files to ignore in the root of the project
+-------------------------------------------------------------------
+IDE and editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+OS-generated files
+.DS_Store
+Thumbs.db
+
+Log files
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+-------------------------------------------------------------------
+SERVER (Node.js / Express) - Specific ignores for the /server folder
+-------------------------------------------------------------------
+Dependency directories - This is the most important one!
+server/node_modules/
+
+Environment variables file - CRITICAL for security
+This file contains database credentials and API keys. NEVER commit this.
+server/.env
+
+Production build folder (if you were to have one)
+server/dist/
+
+Google Cloud Service Account Key File - CRITICAL for security
+This file grants access to your Google Cloud project.
+server/services/vertex-service-account.json
+
+Temporary script file for creating the admin user
+server/createAdmin.js
+
+-------------------------------------------------------------------
+CLIENT (React) - Specific ignores for the /client folder
+-------------------------------------------------------------------
+Dependency directories
+client/node_modules/
+
+Production build folder
+client/build/
+
+Environment variables file for the client (if you create one)
+client/.env
+client/.env.local
+client/.env.development
+client/.env.test
+client/.env.production
+
+Test coverage folder
+client/coverage/
