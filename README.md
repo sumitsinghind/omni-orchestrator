@@ -41,27 +41,27 @@ OmniOrchestrator is a modern, feature-rich MERN stack project designed to showca
 
 ### User Authentication (Login & Register)
 
-|                     Login Page                     |                        Registration Page                         |
-| :------------------------------------------------: | :--------------------------------------------------------------: |
-| ![User Login](./client/screenshots/user-login.png) | ![User Registration](./client/screenshots/user-registration.png) |
+|                    Login Page                     |                        Registration Page                        |
+| :-----------------------------------------------: | :-------------------------------------------------------------: |
+| ![User Login](/client/screenshots/user-login.png) | ![User Registration](/client/screenshots/user-registration.png) |
 
 ### Main Chat Interface
 
-|                  User Dashboard (Welcome)                  |                      User Profile Edit                      |
-| :--------------------------------------------------------: | :---------------------------------------------------------: |
-| ![User Dashboard](./client/screenshots/user-dashboard.png) | ![User Profile Edit](./client/screenshots/user-profile.png) |
+|                 User Dashboard (Welcome)                  |                     User Profile Edit                      |
+| :-------------------------------------------------------: | :--------------------------------------------------------: |
+| ![User Dashboard](/client/screenshots/user-dashboard.png) | ![User Profile Edit](/client/screenshots/user-profile.png) |
 
 ### AI Content Generation
 
-|                        Image Generation                        |                       Text Generation                        |                        Audio Generation                        |
-| :------------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------------: |
-| ![Image Generation](./client/screenshots/image-generation.png) | ![Text Generation](./client/screenshots/text-generation.png) | ![Audio Generation](./client/screenshots/audio-generation.png) |
+|                       Image Generation                        |                       Text Generation                       |                       Audio Generation                        |
+| :-----------------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------------: |
+| ![Image Generation](/client/screenshots/image-generation.png) | ![Text Generation](/client/screenshots/text-generation.png) | ![Audio Generation](/client/screenshots/audio-generation.png) |
 
 ### Admin Panel
 
-|                     Admin Login                      |                       Admin Dashboard                        |
-| :--------------------------------------------------: | :----------------------------------------------------------: |
-| ![Admin Login](./client/screenshots/admin-login.png) | ![Admin Dashboard](./client/screenshots/admin-dashboard.png) |
+|                     Admin Login                     |                       Admin Dashboard                       |
+| :-------------------------------------------------: | :---------------------------------------------------------: |
+| ![Admin Login](/client/screenshots/admin-login.png) | ![Admin Dashboard](/client/screenshots/admin-dashboard.png) |
 
 ---
 
