@@ -42,7 +42,7 @@ function pcmToWav(pcmData, sampleRate) {
 export async function generateText(prompt) {
   try {
     const token = await getAccessToken();
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent`;
     const body = { contents: [{ parts: [{ text: prompt }] }] };
 
     const response = await fetch(url, {
